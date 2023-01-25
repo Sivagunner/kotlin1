@@ -22,6 +22,8 @@ class MyApiCall {
                     inputStreamReader.close()
                     inputSystem.close()
                 } else {
+
+
                     myOutputError("Failed Connection")
                     //binding.baseCurrency.text = "Failed Connection"
                 }
